@@ -1,0 +1,26 @@
+.menu-nav {
+    width: 100%;
+    color: #fff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+  }
+
+  .menu-nav a {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 0.5px #000;
+  }
+
+  th, td {
+    padding: 10px;
+  }
