@@ -19,8 +19,33 @@
     width: 100%;
     border-collapse: collapse;
     border: solid 0.5px #000;
+    margin: 5px 0;
   }
 
   th, td {
     padding: 10px;
+  }
+
+  table thead tr th {background-color: #fff; color: #000;}
+  tr:nth-child(odd) { background-color: #cccc;}
+  tr:nth-child(odd) { background-color: #000; color: #fff;}
+
+  .btn-accion {
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+  }
+
+  .btn-accion:hover {
+    cursor: pointer;
+  }
+
+  .btn-accion.edita {
+    background-color: rgb(103, 128, 229);
+  }
+
+  .btn-accion.borra {
+    background-color: red;
   }
